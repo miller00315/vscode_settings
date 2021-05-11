@@ -1,0 +1,55 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.linux": "/home/miller/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path.linux": "/home/miller/.vs-kubernetes/tools/draft/linux-amd64/draft",
+        "vs-kubernetes.kubectl-path.linux": "/home/miller/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.linux": "/home/miller/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.minikube-path.linux": "/home/miller/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "go.useLanguageServer": true,
+    "go.gopath": "/home/miller/go",
+    "mssql.connections": [
+        {
+            "connectionString": "Microsoft.SqlTools|itemtype:Profile|server:localhost|db:AcademiaDaPeleDB|user:sa|isConnectionString:true",
+            "profileName": "Academia da pele back db",
+            "database": "AcademiaDaPeleDB",
+            "user": "sa",
+            "server": "localhost",
+            "authenticationType": "SqlLogin",
+            "savePassword": true,
+            "password": ""
+        }
+    ],
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "vsicons.dontShowNewVersionMessage": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "arduino.additionalUrls": "https://dl.espressif.com/dl/package_esp32_index.json",
+    "IoTWorkbench.workbench": "/home/miller/IoTWorkbenchProjects",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.defaultProfile.osx": "/bin/zsh"
+}
